@@ -2,7 +2,8 @@ package Task3;
 
 public class Main {
     public static void main(String[] args) {
-        MyDate hireDate = new MyDate(2022, 8, 15);
+
+        MyDate hireDate = new MyDate(2026, 01, 03);
         
         Student student1 = new Student("Alice", "123 Main St", "555-1234", "alice@example.com", Student.FRESHMAN);
         Faculty faculty1 = new Faculty("Dr. Smith", "456 College Ave", "555-5678", "smith@example.com", "Room 101", 80000, hireDate, "MWF 9-11 AM", "Professor");
